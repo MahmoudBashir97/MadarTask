@@ -10,11 +10,11 @@ data class UserData(
     @ColumnInfo(name = "id")
     val id:Int,
     @ColumnInfo(name = "name")
-    val name:String,
+    val name:String?,
     @ColumnInfo(name = "age")
-    val age:Int,
+    val age:Int?,
     @ColumnInfo(name = "job_title")
-    val jobTitle:String,
+    val jobTitle:String?,
     @ColumnInfo(name = "gender")
-    val gender:String
+    val gender:String?
 )
